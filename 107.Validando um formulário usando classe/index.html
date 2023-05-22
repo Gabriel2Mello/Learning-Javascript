@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <section class="container">
+        <h1>Formulário de cadastro</h1>
+        <ul>
+            <li>Nenhum campo pode estar vazio</li>
+            <li>Usuário só poderá contar letras e/ou números</li>
+            <li>Usuário deverá ter entre 3 e 12 caracteres</li>
+            <li>Senha precisa ter entre 6 e 12 caracteres</li>
+        </ul>
+
+        <form class="formulario" action="/" method="post" target="_blank" autocomplete="off">
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" class="nome valid" name="nome" id="nome">
+            </p>
+
+            <p>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" class="sobrenome valid" name="sobrenome" id="sobrenome">
+            </p>
+
+            <p>
+                <label for="cpf">CPF:</label>
+                <input type="text" class="cpf valid" name="cpf" id="cpf">
+            </p>
+
+            <p>
+                <label for="usuario">Usuário:</label>
+                <input type="text" class="usuario valid" name="usuario" id="usuario">                
+            </p>
+
+            <p>
+                <label for="senha">Senha:</label>
+                <input type="password" class="senha valid" name="senha" id="senha">
+            </p>
+
+            <p>
+                <label for="confirma-senha">Confirmar senha:</label>
+                <input type="password" class="confirma-senha valid" name="confirma-senha" id="confirma-senha">
+            </p>
+
+            <p>
+                <button type="submit">Enviar</button>
+            </p>
+        </form>        
+    </section>
+
+    <script src="./assets/js/validaCpf.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
