@@ -3,7 +3,7 @@ var __webpack_exports__ = {};
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-// npm run loadWebpack
+// npm run dev
 /******/ })()
 ;
 //# sourceMappingURL=bundle.js.map

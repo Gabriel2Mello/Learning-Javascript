@@ -1,2 +1,2 @@
-// npm run loadWebpack
+// npm run dev
 
