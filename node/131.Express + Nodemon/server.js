@@ -1,4 +1,4 @@
-// node server.js
+// npm start
 const express = require('express');
 const app = express();
 
@@ -6,7 +6,7 @@ app.get('/', (request, response) => {
     response.send(`
     <form action="/" method="POST">
     Nome: <input type="text" name="nome">
-    <button>Enviar</button>
+    <button>Send</button>
     </form>
     `);
 });
