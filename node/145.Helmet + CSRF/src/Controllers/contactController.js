@@ -1,3 +1,3 @@
 exports.home = (request, response) => {
-    response.send('Thank you for contacting');
-}
+  response.send("Thank you for contacting");
+};
